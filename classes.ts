@@ -1,4 +1,5 @@
-// Normal Class yapısından farkı constructor içinde tanımladıgımız degerlerı dışardada tanımlamamız gerkıyor . Çünkü veri tipine göre yazıyoruz typescriptte.
+// Normal Class yapısından farkı constructor içinde tanımladıgımız degerlerı dışardada tanımlamamız gerkıyor .
+//Çünkü veri tipine göre yazıyoruz typescriptte.
 
 class Ev {
   odaSayisi: number;
@@ -24,7 +25,8 @@ console.log(ev.kat);
 // Inheritance-- Kalıtım
 
 class Kisi {
-  private isim: string; // private sadece tanımlandıgı class ıcınde gecerli. Ama kalıtım yaptıgı dıger class'larda da kullanılamaz bunun ıcın ıse protected kullanırız.
+  private isim: string; // private sadece tanımlandıgı class ıcınde gecerli.
+                        //Ama kalıtım yaptıgı dıger class'larda da kullanılamaz bunun ıcın ıse protected kullanırız.
 
   protected soyIsim: string;
 
