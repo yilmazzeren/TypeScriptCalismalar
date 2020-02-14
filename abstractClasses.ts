@@ -36,5 +36,7 @@ database = new Nodejs();
 database.Duzenle();
 
 /*
-    abstract olarak işaretlediğimiz Duzenle metodunu tanımlamıyoruz ki miras alan sınıf kendine göre düzenlesin. MSSQL sınıfı kalıtım aldı ve duzenle metodunu kendine göre tanımladı. Aynı şekilde başka bir veritabanı kalıtım aldığında Oluşturacak. Ekleme işlemi hepsi için ortak.
+    abstract olarak işaretlediğimiz Duzenle metodunu tanımlamıyoruz ki miras alan sınıf kendine göre düzenlesin.
+    MSSQL sınıfı kalıtım aldı ve duzenle metodunu kendine göre tanımladı.
+    Aynı şekilde başka bir veritabanı kalıtım aldığında Oluşturacak. Ekleme işlemi hepsi için ortak.
 */
