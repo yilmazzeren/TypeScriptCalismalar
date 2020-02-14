@@ -1,5 +1,9 @@
 /*
-    Ortak olan ve olmayan sınıfları belirlemek için kullanılır. Sınıftır fakat tek başlarına kullanılmazlar. Inheritance yöntemiyle yani miras verildiklerinde anlamlı olurlar. Abstract classlarda tanımlanmış ve tanımlamadığımız operasyonlar tanımlarız. Miras alan sınıf tanımlanan operasyonu aynen kullanır. Tanımlanmamış operasyonları kendi kullanımına göre düzenler.
+    Ortak olan ve olmayan sınıfları belirlemek için kullanılır.
+    Sınıftır fakat tek başlarına kullanılmazlar.
+    Inheritance yöntemiyle yani miras verildiklerinde anlamlı olurlar. 
+    Abstract classlarda tanımlanmış ve tanımlamadığımız operasyonlar tanımlarız.
+    Miras alan sınıf tanımlanan operasyonu aynen kullanır. Tanımlanmamış operasyonları kendi kullanımına göre düzenler.
 */
 
 abstract class Database {
